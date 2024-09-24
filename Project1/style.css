@@ -1,3 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#software-features {
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+#software-features h2 {
+    color: #333;
+}
+
+#software-features p {
+    color: #666;
+    line-height: 1.8;
+}
+
+
 .nbox {
     padding: 0 100px;
 }
@@ -91,137 +110,6 @@ h4 {
 }
 
 
-/* 
-
-pricing             */
-
-
-
-
-/* @import url('https://fonts.googleapis.com/css?family=Abel');
-
-
-
-#wrapper {
-    width: 100%;
-}
-
-@media screen and (min-width: 1113px) {
-    #wrapper {
-        width: 1100px;
-        margin: 0 auto;
-    }
-}
-
-#pricing-tables {
-    font-family: "Abel", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-@media screen and (min-width: 1113px) {
-    #pricing-tables {
-        flex-direction: row;
-    }
-}
-
-.pricing-table {
-    max-width: 300px;
-    width: 100%;
-    margin: 15px 0;
-}
-
-@media screen and (min-width: 1113px) {
-    .pricing-table {
-        margin: 0;
-        max-width: 300px;
-    }
-}
-
-.pricing-table .header .title {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 15px 0;
-    background: #117ebd;
-    color: #000;
-    font-size: 16px;
-}
-
-.pricing-table .header .price {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 15px 0;
-    background: #117ebd;
-    color: #000;
-    font-size: 28px;
-    font-weight: 300;
-}
-
-.pricing-table .header .price span {
-    font-size: 14px;
-    vertical-align: super;
-}
-
-.pricing-table .features {
-    background: #fff;
-}
-
-.pricing-table .features ul {
-    list-style: none;
-    margin: 0;
-    padding: 15px 0;
-}
-
-.pricing-table .features ul li {
-    padding: 8px 5px;
-    text-align: center;
-}
-
-.pricing-table .features ul li span {
-    color: #999;
-}
-
-.pricing-table .signup {
-    background: #fff;
-    padding: 2px 0 25px 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.pricing-table .signup a {
-    width: auto;
-    margin: 0 auto;
-    padding: 8px 10px;
-    text-align: center;
-    text-decoration: none;
-    color: #117ebd;
-    border: 1px solid #117ebd;
-    transition: all .2s ease;
-}
-
-.pricing-table .signup a:hover {
-    color: #fff;
-    background: #117ebd;
-}
-
-.pricing-table.featured .header .title {
-    background: #117ebd;
-    color: #fff;
-}
-
-.pricing-table.featured .signup a {
-    background: #117ebd;
-    color: #fff;
-}
-
-.pricing-table.featured .signup a:hover {
-    color: #117ebd;
-    background: #fff;
-} */
-
 
 
 .pricing-table {
@@ -229,7 +117,7 @@ pricing             */
     border: 1px solid #ddd;
     border-radius: 8px;
     text-align: center;
-    min-height: 340px; /* Increase the height of the cards */
+    min-height: 340px; 
     padding-bottom: 20px;
 }
 .header {
@@ -289,11 +177,8 @@ pricing             */
     background-position: center;
     display: flex;
     justify-content: center;
-    /* Centers horizontally */
     align-items: center;
-    /* Centers vertically */
     text-align: center;
-    /* Ensures text alignment is centered */
 }
 
 .bgform::before {
@@ -307,9 +192,7 @@ pricing             */
     background-size: cover;
     background-position: center;
     filter: blur(2px);
-    /* Adjust the blur value as needed */
     z-index: -1;
-    /* Keep it behind the content */
     opacity: 2px;
 }
 
@@ -317,9 +200,7 @@ pricing             */
     position: relative;
     z-index: 1;
     color: white;
-    /* For visibility */
     max-width: 100%;
-    /* Ensures the content does not overflow */
 }
 
 
@@ -341,13 +222,11 @@ form div {
 input[type="text"],
 input[type="mail"] {
     width: calc(100% - 22px);
-    /* Adjust width to account for padding */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     margin-bottom: 10px;
-    /* Space between inputs */
 }
 
 button {
@@ -365,13 +244,11 @@ button:hover {
     background-color: #0d6efd;
 }
 
-/* Responsive styling */
 @media (max-width: 500px) {
 
     input[type="text"],
     input[type="mail"] {
         width: calc(100% - 16px);
-        /* Adjust width for smaller screens */
     }
 }
 
@@ -484,7 +361,6 @@ p {
 
 
 
-/* Main wrapper with blurred background */
 .main-wrapper {
     position: relative;
     padding: 50px 20px ;
@@ -499,7 +375,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/img/christine-roy-ir5MHI6rPg0-unsplash.jpg'); /* Replace with your image */
+    background-image: url('/img/christine-roy-ir5MHI6rPg0-unsplash.jpg'); 
     background-size: cover;
     background-position: center;
     filter: blur(8px);
@@ -507,7 +383,6 @@ p {
     z-index: -1;
 }
 
-/* Flex Row */
 .flexr {
     display: flex;
     flex-wrap: wrap;
@@ -521,13 +396,11 @@ p {
 
 }
 
-/* Column Styles */
 .form-column {
     flex: 1;
-    min-width: 0; /* Ensure columns do not shrink below their content */
+    min-width: 0; 
 }
 
-/* Icon Circle */
 .icon-circle {
     padding: 20px;
     background-color: rgb(38, 116, 211);
@@ -537,12 +410,11 @@ p {
     margin-right: 15px;
 }
 
-/* Form Styles */
 .form-column input,
 .form-column textarea,
 .form-column button {
-    width: 600px; /* Full width for mobile view */
-    padding: 15px;  /* Increased padding for larger input areas */
+    width: 600px; 
+    padding: 15px;  
     margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -560,7 +432,6 @@ p {
     background-color: #0b5a8a;
 }
 
-/* Responsive Adjustments */
 @media (min-width: 744px) {
     .flexr {
         flex-direction: row;
@@ -624,35 +495,5 @@ p {
 
 
 
-body {
-    font-family: 'Arial', sans-serif;
-}
 
-#software-features {
-    background-color: #f9f9f9;
-    text-align: left;
-}
 
-#software-features h2 {
-    color: #333;
-}
-
-#software-features p {
-    color: #666;
-    line-height: 1.8;
-}
-
-/* .icon-circle {
-    width: 40px;
-    height: 40px;
-    background-color: rgb(38, 116, 211);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.icon-circle i {
-    font-size: 18px;
-} */
