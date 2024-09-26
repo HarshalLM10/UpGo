@@ -188,7 +188,7 @@ pricing             */
     left: 0;
     width: 100%;
     height: 100%;
-background-image: url('../img/christine-roy-ir5MHI6rPg0-unsplash.jpg');
+background-image: url('https://raw.githubusercontent.com/HarshalLM10/UpGo/master/Project1/img/christine-roy-ir5MHI6rPg0-unsplash.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(2px);
@@ -375,7 +375,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-background-image: url('../img/christine-roy-ir5MHI6rPg0-unsplash.jpg');
+background-image: url('https://raw.githubusercontent.com/HarshalLM10/UpGo/master/Project1/img/christine-roy-ir5MHI6rPg0-unsplash.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(8px);
